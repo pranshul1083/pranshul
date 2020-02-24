@@ -1,0 +1,121 @@
+*{
+
+margin:0;
+padding:0;
+font-family:century gothic;
+
+}
+
+header{
+
+background-image:url("home_page.jpeg");
+
+height:100vh;
+
+background-size: 100% 100%; 
+
+background-position: center;
+
+}
+
+ul
+{ 
+float:right;
+
+list-style:none;
+
+margin-top:25px;
+
+
+}
+
+ul li
+{
+
+display:inline-flex;
+
+}
+
+ul li a{
+
+font-size:20px;
+
+text-decoration: none;
+
+color:#212F3C;
+
+padding:10px 20px 20px 20px;
+
+border:1px solid #fff transparent;
+
+transition:0.7s ease;
+
+}
+
+ul li a:hover{
+background-color:#ECF0F1;
+color:#7D3C98;
+font-size:25px;
+font-style:Arial;	
+}
+ul li.home a{
+background-color:#ECF0F1;
+color:#7D3C98;
+font-size:25px;
+}
+.main{
+max-width: 1200px;
+margin:auto;
+}
+marquee{
+color:#2E4053;
+font-size:30px;
+position:absolute;
+top:90% ;
+text-shadow: 2px 2px #EC7063  ;
+}
+.id{
+position:absolute;
+top:20%;
+left:5%;
+}
+.socialmedia img{
+display:inline-flex;
+top:50%;
+left:50%;
+
+margin:4px;
+}
+nav.nav{
+	position:absolute;
+	top:75%;
+	left:44.4%;
+}
+.quote{
+color: white;
+font-size:45px;
+position:absolute;
+top:23%;
+left:65%;
+text-shadow:5px 5px 5px #52E1E5;
+}
+ol.list{ position:absolute;
+top:110%;
+}
+ol.list li{
+        font-size: 30px;
+        color:black;
+        opacity: 90%;
+    }
+    button.but{
+        position:absolute;
+        top:30%;
+        left:45%;
+        height: 150px;
+        width: 200px;
+        font-size: 20px;
+        color:red;
+        background-color:black;
+        border: none;
+        border-radius: 20px;
+    }

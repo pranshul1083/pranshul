@@ -1,0 +1,82 @@
+*{
+
+margin:0;
+padding:0;
+font-family:century gothic;
+
+}
+
+header{
+
+background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url("location1.jpg");
+
+height:100vh;
+
+background-size: 100% 100%; 
+
+background-position: center;
+
+}
+
+ul
+{ 
+float:right;
+
+list-style:none;
+
+margin-top:25px;
+
+
+}
+
+ul li
+{
+
+display:inline-flex;
+
+}
+
+ul li a{
+
+font-size:20px;
+
+text-decoration: none;
+
+color:#FFFFFF;
+
+padding:10px 20px 20px 20px;
+
+border:1px solid #fff transparent;
+
+transition:0.7s ease;
+
+}
+
+ul li a:hover{
+background-color:#7D3C98;
+color:#E3BC30;
+font-size:25px;
+font-style:Arial;	
+}
+ul li.home a{
+background-color:#7D3C98;
+color:#E3BC30;
+font-size:25px;
+}
+.main{
+max-width: 1200px;
+margin:auto;
+}
+.ghr{
+font-size:16px;
+color:#717171;
+position:absolute;
+left:46%;
+top:57%; 
+}
+
+
+
+
+
+
